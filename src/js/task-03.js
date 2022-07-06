@@ -16,7 +16,6 @@ const images = [
 const galeryMarkupRef = images.map((image) => {
   return `<li><img src="${image.url}" alt="${image.alt}"></li>`;
 });
-console.log(galeryMarkupRef);
 
 const galleryListRef = document.querySelector(".gallery");
 galleryListRef.insertAdjacentHTML("afterbegin", galeryMarkupRef);

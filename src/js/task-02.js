@@ -13,5 +13,6 @@ const createIngredientsRef = ingredients.map((ingredient) => {
   return ingredientRef;
 });
 console.log(createIngredientsRef);
+
 const listOfIngredientsRef = document.querySelector("#ingredients");
 listOfIngredientsRef.append(...createIngredientsRef);
